@@ -10,7 +10,7 @@ def __start__():
     
     site = input(Fore.RED+" ┌─["+Fore.LIGHTGREEN_EX+"WEBKILLER"+Fore.BLUE+"~"+Fore.WHITE+"@HOME"+Fore.RED+"/"+Fore.CYAN+"IG"+Fore.RED+"/"+Fore.LIGHTYELLOW_EX+"IP-Location"+Fore.RED+"""]
  └──╼ """+Fore.WHITE+"卐 ")
-    source = ipapi.location(ip=site, key=None, field=None)
+    source = ipapi.location(ip=site)
     try:
         print(Fore.GREEN+" [!]"+Fore.RED+" See your info")
         print (Fore.GREEN+" [!]"+Fore.BLUE+" ip = "+ source["ip"])
